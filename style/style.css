@@ -1,0 +1,209 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  background-color: rgb(255, 255, 255);
+}
+.monero-g-u-i {
+  display: flex;
+  width: 100%;
+}
+
+.logo-monero img {
+  width: 50px;
+  height: 50px;
+  margin: 30px 0px 0px 30px;
+}
+
+.monero-desktop-wallet {
+  width: 768px;
+  height: 793px;
+  margin: 83px 0px 0px 190px;
+}
+.monero-desktop-wallet h1 {
+  font-weight: bold;
+  padding: 10px 0 0 0;
+}
+
+.monero-desktop-wallet p {
+  max-width: 500px;
+  font-size: 24px;
+  padding: 35px 0px 0px 0px;
+  color: rgba(128, 128, 128, 1);
+}
+
+.your-operating-system {
+  width: 299px;
+  height: 252px;
+  padding: 10px 0 0 0px;
+}
+.your-operating-system p {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+}
+.your-operating-system select {
+  width: 299px;
+  height: 48px;
+  font-size: 22px;
+  color: rgba(128, 128, 128, 1);
+  border: 1px solid rgba(222, 222, 222, 1);
+}
+.start-downlouad {
+  position: relative;
+  width: 299px;
+  height: 60px;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: rgba(250, 104, 0, 1);
+  border-radius: 10px;
+}
+.start-downlouad a {
+  position: absolute;
+  top: 50%;
+  font-weight: bold;
+  text-decoration: none;
+  transform: translate(10%, -50%);
+  color: rgb(255, 255, 255);
+}
+
+.start-downlouad a::after {
+  content: url("/svg/start-downlouad-right.svg");
+}
+
+
+.image-desktopwallet {
+  margin: 83px 0 0 0;
+  width: 1024px;
+  height: 768px;
+}
