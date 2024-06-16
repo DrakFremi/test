@@ -138,13 +138,11 @@ body {
   display: flex;
   width: 100%;
 }
-
 .logo-monero img {
   width: 50px;
   height: 50px;
   margin: 30px 0px 0px 30px;
 }
-
 .monero-desktop-wallet {
   width: 768px;
   height: 793px;
@@ -152,24 +150,23 @@ body {
 }
 .monero-desktop-wallet h1 {
   font-weight: bold;
-  padding: 10px 0 0 0;
+  padding: 10px 0 10px 0px;
 }
-
-.monero-desktop-wallet p {
+.description-monero {
   max-width: 500px;
   font-size: 24px;
-  padding: 35px 0px 0px 0px;
+  padding: 30px 0 0 0;
   color: rgba(128, 128, 128, 1);
 }
-
 .your-operating-system {
   width: 299px;
   height: 252px;
-  padding: 10px 0 0 0px;
+  padding: 20px 0 0 0px;
 }
-.your-operating-system p {
+.choose-system {
   font-weight: 500;
   font-size: 14px;
+  padding: 10px 0 0 0;
   color: rgba(0, 0, 0, 1);
 }
 .your-operating-system select {
@@ -179,31 +176,76 @@ body {
   color: rgba(128, 128, 128, 1);
   border: 1px solid rgba(222, 222, 222, 1);
 }
+.checkbox {
+  font-size: 14px;
+  padding: 20px 0 0 0;
+}
 .start-downlouad {
-  position: relative;
+  display: flex;
   width: 299px;
   height: 60px;
-  font-size: 24px;
-  font-weight: 700;
-  background-color: rgba(250, 104, 0, 1);
-  border-radius: 10px;
-}
-.start-downlouad a {
-  position: absolute;
-  top: 50%;
-  font-weight: bold;
-  text-decoration: none;
-  transform: translate(10%, -50%);
+  border: none;
+  font-size: 26px;
+  border-radius: 4px;
+  align-items: center;
+  margin: 30px 0px 0px 0px;
+  padding: 0px 0px 0px 20px;
   color: rgb(255, 255, 255);
+  background-color: rgba(250, 104, 0, 1);
+}
+.downlouad-svg {
+  padding: 0 0 0 40px;
 }
 
-.start-downlouad a::after {
-  content: url("/svg/start-downlouad-right.svg");
+.view-version {
+  font-size: 14px;
 }
-
-
+.cotainer-overview {
+  display: flex;
+  width: 470px;
+  height: 128px;
+  margin: 50px 0px 0 0;
+  border-top: 2px solid rgba(237, 237, 237, 1);
+}
+.overview {
+  width: 150px;
+  height: 128px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0px 30px 0px 0px;
+}
+.overview a {
+  text-decoration: none;
+  color: rgba(250, 104, 0, 1);
+}
+.for-business {
+  text-align: left;
+  width: 120px;
+  height: 128px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.for-business a {
+  text-decoration: none;
+  color: rgba(250, 104, 0, 1);
+}
 .image-desktopwallet {
   margin: 83px 0 0 0;
   width: 1024px;
   height: 768px;
+}
+
+.container-manage-your-wallet {
+  display: flex;
+  flex
+  width: 100%;
+  height: 1497px;
+  align-items: center;
+  background: rgba(32, 32, 32, 1);
+}
+.manage-your-wallet {
+  width: 1050px;
+  
 }
